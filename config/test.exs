@@ -17,7 +17,7 @@ config :ichat, Ichat.Repo,
 # you can enable the server option below.
 config :ichat, IchatWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "XDioI+FCfglqHdN9oU3WXviIOPE2Q0k+Gf/uA719GboissFVEfuT5Xm6zNbyrp8N",
+  secret_key_base: "1dPcW8usqx+0ypZ8o8arEzstFmnnfCF3b8pq7t/oJMRGefuUNMcASFkClc5kM8mt",
   server: false
 
 # In test we don't send emails

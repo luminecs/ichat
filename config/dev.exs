@@ -23,7 +23,7 @@ config :ichat, IchatWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "z+q+S/rIVWBsZN9wR5wsXcZeYQdZWp8F/ngqmqvSkP/08EG+YL+A65gObxNAaZhz",
+  secret_key_base: "YkQEvCMZzLgrGXPEIhflpSNoYHBkbz9K55Oa95fUuFNnSkg/h8fEk+2D5VLjfiyu",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:ichat, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:ichat, ~w(--watch)]}
@@ -80,7 +80,7 @@ config :phoenix_live_view,
   # Include debug annotations and locations in rendered markup.
   # Changing this configuration will require mix clean and a full recompile.
   debug_heex_annotations: true,
-  debug_tags_location: true,
+  debug_attributes: true,
   # Enable helpful, but potentially expensive runtime checks
   enable_expensive_runtime_checks: true
 

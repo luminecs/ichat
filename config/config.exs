@@ -20,7 +20,7 @@ config :ichat, IchatWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Ichat.PubSub,
-  live_view: [signing_salt: "csyI1La5"]
+  live_view: [signing_salt: "Wmx6X4Q5"]
 
 # Configures the mailer
 #

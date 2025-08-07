@@ -7,7 +7,7 @@ defmodule IchatWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_ichat_key",
-    signing_salt: "tAplA74S",
+    signing_salt: "sXBqBX4Z",
     same_site: "Lax"
   ]
 
